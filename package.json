@@ -1,0 +1,36 @@
+{
+  "name": "agentic-ops",
+  "version": "1.0.0",
+  "description": "Agentic Ops - Multi-Agent AI Operations Control Center. Portfolio Demo.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/smoke-test.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.15",
+    "@langchain/langgraph": "^0.2.20",
+    "@xyflow/react": "^12.3.5",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.11",
+    "lucide-react": "^0.454.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  }
+}
